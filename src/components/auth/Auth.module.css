@@ -9,12 +9,46 @@
 
 .container {
   width: 430px;
-  height: 1131px;
+  height: 100%;
   display: flex;
   justify-content: center;
   padding: 84px 0;
+  flex-direction: column;
+
+  align-items: center;
 }
 .logo {
   width: 116px;
   height: 116px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 84px 0;
+}
+
+input {
+  width: 349px;
+  height: 51.358px;
+  border-radius: 8px;
+  border: 0.5px solid #2c7da0;
+  background: rgba(1, 42, 74, 0.75);
+  color: #fff;
+  font-family: Gotham Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.64px;
+}
+
+label {
+  color: #fff;
+  font-family: Gotham Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.32px;
 }
