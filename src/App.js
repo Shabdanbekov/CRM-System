@@ -1,15 +1,18 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Main from "./components/Main/Main";
-import Auth from "./components/auth/Auth";
+import SignUp from "./components/auth/SignUp/SignUp";
+import SignIn from "./components/auth/SignIn/SignIn";
+import SmsPassword from "./components/SmsPassword/SmsPassword";
 
 function App() {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/singUp" element={<Auth />} />
-        <Route path="/singIn" element={<Auth />} />
+        <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/sms-password" element={<SmsPassword />} />
       </Routes>
     </div>
   );
