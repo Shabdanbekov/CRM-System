@@ -12,7 +12,7 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  padding: 84px 0;
+  padding: 94px 0;
   flex-direction: column;
 
   align-items: center;
@@ -25,7 +25,7 @@
   display: flex;
   flex-direction: column;
   align-content: center;
-  padding: 84px 0;
+  padding: 64px 0;
 }
 
 input {
@@ -41,9 +41,20 @@ input {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.64px;
+  margin:0  0  32px ;
+  padding: 0 20px;
+  
+}
+input::placeholder{
+  color: #FFF;
+  opacity: 0.1;
+}
+input:last-child{
+  margin: 0;
 }
 
 label {
+  margin:  0 0 12px;
   color: #fff;
   font-family: Gotham Pro;
   font-size: 16px;
@@ -51,4 +62,28 @@ label {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.32px;
+}
+.checkBox{
+  display: flex;
+  align-items: center;
+}
+.radio{
+  width: 35px;
+  margin: 0 10px 0 0 ;
+}
+.agrement{
+  color: #FFF;
+font-family: Gotham Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.agrementLink{
+  color: #001BE6;
+font-family: Gotham Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
